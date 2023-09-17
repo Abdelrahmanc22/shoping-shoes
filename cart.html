@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cart.css">
+    <title>cart</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-left" >
+        
+            <div class="search">
+                <input type="text" placeholder="Search ">
+                <i class="fas fa-search"></i>    
+            </div>
+
+        </div>
+        <div class="nav-middle">
+          <h3>Abdelrahman Atef</h3>
+        </div>
+        <div class="nav-right">
+        
+            <a href="#">
+                <i class="fa-solid fa-user"></i>
+            </a>
+            <a href="#">
+                <i class="fa-regular fa-heart"></i>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            
+            
+
+        </div>
+    </nav>
+     <nav>
+      <div class="nav-middle2">
+       <a href="index.html">HOME</a>
+       <a href="about.html">ABOUT</a>
+       <a href="shop.html">SHOP</a>
+       <a href="#">CATALOGUE</a>
+       <a href="#">NEW ARRIVALS</a>
+       <a href="#">CONTACT</a>
+      </div>
+     </nav>
+     <section class="smallback">
+        <h3> <span>Home</span> / Cart</h3>
+     </section>
+     <section class="tab1">
+        <table >
+            <tr>
+              <th>Image</th>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>total</th>
+              <th>Removal</th>
+            </tr>
+            <tr>
+              <td><img src="cloth_1.jpg" ></td>
+              <td>Tank Top T-Shirt</td>
+              <td>$49.00</td>
+              <td> <div class="quantity">
+                <form >
+                   <button class="one">-</button>
+                    <input type="number" id="quantity" name="quantity" min="1" max="20">
+                    <button class="two">+</button>
+                  </form>
+             </div></td>
+              <td>	$49.00</td>
+              <td><input class="removal" type="text" value="x"></td>
+            </tr>
+            <tr>
+              <td><img src="cloth_2.jpg" ></td>
+              <td>Polo Shirt</td>
+              <td>$49.00</td>
+              <td> <div class="quantity">
+                <form >
+                   <button class="one">-</button>
+                    <input type="number" id="quantity" name="quantity" min="1" max="20">
+                    <button class="two">+</button>
+                  </form>
+             </div></td>
+              <td>	$49.00</td>
+              <td><input class="removal" type="text" value="x"></td>
+            </tr>
+          </table>
+     </section>
+     <section class="information">
+        <div class="links">
+            <a class="link1" href="#">UPDATE CART</a>
+            <a class="link2" href="#">CONTINUE SHOPPING</a>
+        </div>
+
+        <div class="continuinf">
+          <h3>COUPON</h3><br>
+          <span>Enter your coupon code if you have one.</span><br>
+          <input type="text" placeholder="Coupon Code">
+        </div>
+        <div class="lin"><a class="apply" href="#">APPLY COUPON</a></div>
+       
+
+     </section>
+     <section class="endinf">
+        <div>
+            <h3>CART TOTALS</h3><hr>
+            <span> subtotal</span> <p> $230.00</p> 
+            <span>total</span> <p>$230.00</p>
+            
+        </div>
+        <div class="lid"><a class="apply2" href="data.html">PROCEED TO CHECK</a></div>
+     </section>
+
+     <footer class="sec6">
+        <div class="container">
+             <div class="col">
+                <h3>Navigation</h3>
+                <h6>Sell online</h6>
+                <h6>Features</h6>
+                <h6>Shopping Cart</h6>
+                <h6>Store builder</h6>
+             </div>
+            <div class="col2">
+             <h6>Mobile commerce</h6>
+             <h6>Dropshipping</h6>
+             <h6>Website development</h6>
+            </div>
+            <div class="col3">
+            <h6>Point of safe</h6>
+            <h6>Hardware</h6>
+            <h6>Software</h6>
+            </div>
+            <div class="col4">
+                <h3>Promo</h3>
+                <img src="hero_1.jpg" >
+               <a href="#"><h4>Finding Your Perfect Shoes</h4></a> 
+                <span>Promo from nuary 15_25,2019</span>
+            </div>
+            <div class="col5">
+                <h3>Contact Into</h3>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>66 Damascus Street, Mosque Square, Heliopolis</span>
+                <i class="fa-solid fa-phone"></i>
+                <span>+02 01158649403</span>
+                <i class="fa-solid fa-envelope"></i>
+                <span>abdelrahmancoder22@gmail.com</span>
+                 <h4>Subscribe</h4>
+                 <input class="input" type="email" name="email" placeholder="Email" >
+                 <input class="send" type="submit" value="SEND">
+            <div class="copyright">
+                Copyright&2021 All rights reserved. this template is made by <span class="AA">Abdelrahman Atef</span> 
+             </div>
+                </div>
+
+            
+        </div>
+    </footer>
+
+</body>
+</html>
